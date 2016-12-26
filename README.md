@@ -1,8 +1,6 @@
 # UWAPI
 
-This node module is a wrapper for the UW OpenData API. It is asynchronous but
-promised based and so presents a cleaner interface than traditional callbacks
-while still remaining efficient.
+This module is a promise wrapper for the UW OpenData API. It's a browser port from the original [node.js wrapper](https://github.com/rvaiya/node_uwapi).
 
 ## Installation
 
@@ -25,10 +23,6 @@ uwapi.buildingsList().then(function(buildings) {
 	// Do something
 });
 ```
-## Dependencies
-
-The package depends on kris kowal's Q library implementation of promises
-which should automatically be installed by npm.
 
 ## Usage
 
