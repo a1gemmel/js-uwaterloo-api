@@ -1,6 +1,7 @@
 # UWAPI
 
 This module is a promise wrapper for the UW OpenData API. It's a browser port from the original [node.js wrapper](https://github.com/rvaiya/node_uwapi).
+You probably shouldn't use this in any public application, as doing so would require exposing an OpenData API key to the client. I use this exclusively for a display in my home media server, which is not pubically accessable.
 
 ## Installation
 
